@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="message">Enter Temperature</string>
+    <string name="txt_celsius">Celsius:</string>
+    <string name="txt_fahrenheit">Fahrenheit</string>
+</resources>

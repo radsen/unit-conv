@@ -6,24 +6,40 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin"
+        android:text="@string/message" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:id="@+id/tv_temp_converter_celsius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_celsius"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
+        android:textSize="@dimen/label_text_size"/>
 
-    <EditText
+    <com.mobilebutterfly.unitconverter.EditNumber
         android:id="@+id/et_temp_converter_celsius"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:gravity="end|center_vertical"/>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:id="@+id/tv_temp_converter_fahrenheit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_fahrenheit"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
+        android:textSize="@dimen/label_text_size"/>
 
-    <EditText
+    <com.mobilebutterfly.unitconverter.EditNumber
         android:id="@+id/et_temp_converter_fahrenheit"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:gravity="end|center_vertical"/>
 
 </LinearLayout>

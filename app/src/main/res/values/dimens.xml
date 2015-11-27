@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="label_text_size">24sp</dimen>
+    <dimen name="keyboard_space">205dp</dimen>
+</resources>
