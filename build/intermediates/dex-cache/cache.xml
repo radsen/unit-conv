@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/asolano/Projects/Mobile/Android/unit-conv/core/build/libs/core.jar"
+        jar="/Users/radsen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="0b059fc2811dee8f3884321a232919f76466baa5">
-        <dex dex="/Users/asolano/Projects/Mobile/Android/unit-conv/app/build/intermediates/pre-dexed/debug/core_bd9c3e180bdc6e5ac4a606089af7ea1d1b98c312.jar" />
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/radsen/Development/Mobile/Android/unit-conv/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1_6085590f8786fb1bfcc1ed30da88dbe0b8166723.jar" />
     </item>
 
 </items>
