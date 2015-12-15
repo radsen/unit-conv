@@ -24,7 +24,7 @@ public class EditNumber extends EditText {
 
 
     public void clear() {
-
+        setText("");
     }
 
     public double getNumber() {
